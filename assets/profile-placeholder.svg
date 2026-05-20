@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800" role="img" aria-labelledby="title desc">
+  <title id="title">Profile placeholder</title>
+  <desc id="desc">Placeholder image for personal portrait.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#009B65" />
+      <stop offset="100%" stop-color="#F092B0" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="800" fill="url(#bg)" />
+  <circle cx="320" cy="285" r="130" fill="#FCF9F8" opacity="0.9" />
+  <rect x="165" y="450" width="310" height="220" rx="120" fill="#FCF9F8" opacity="0.9" />
+  <text x="50%" y="735" text-anchor="middle" fill="#FCF9F8" font-size="34" font-family="Arial, sans-serif">
+    Add your photo here
+  </text>
+</svg>
