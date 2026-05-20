@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard · Lotus Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">L</div>
+        <div>
+          <div class="brand-name">Lotus Studio</div>
+          <span class="brand-sub">Yoga &amp; Wellness</span>
+        </div>
+      </div>
+
+      <div>
+        <div class="nav-section-label">Workspace</div>
+        <nav class="nav">
+          <a href="index.html" class="active">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>
+            Dashboard
+          </a>
+          <a href="clients.html">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+            Clients
+          </a>
+          <a href="classes.html">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c1.5 3 4 5 7 5-3 0-5.5 2-7 5-1.5-3-4-5-7-5 3 0 5.5-2 7-5z"/><path d="M12 13v8"/></svg>
+            Classes
+          </a>
+          <a href="schedule.html">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 9h18M8 3v4M16 3v4"/></svg>
+            Schedule
+          </a>
+        </nav>
+      </div>
+
+      <div>
+        <div class="nav-section-label">Account</div>
+        <nav class="nav">
+          <a href="#">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3h.1a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8v.1a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
+            Settings
+          </a>
+        </nav>
+      </div>
+
+      <div class="sidebar-footer">
+        <div class="avatar">SK</div>
+        <div>
+          <div class="user-name">Sara Kim</div>
+          <div class="user-role">Studio Owner</div>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="page-header">
+        <div class="page-title-block">
+          <div class="eyebrow">Good morning, Sara</div>
+          <h1>Studio overview</h1>
+          <p>A calm look at what's flowing through your studio today.</p>
+        </div>
+        <div class="page-actions">
+          <div class="search">
+            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+            <input type="text" placeholder="Search clients, classes…">
+          </div>
+          <button class="btn btn-primary">+ New booking</button>
+        </div>
+      </header>
+
+      <div class="stat-grid">
+        <div class="stat">
+          <div class="stat-label">Active members</div>
+          <div class="stat-value">214</div>
+          <div class="stat-delta">+8 this month</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">Classes this week</div>
+          <div class="stat-value">38</div>
+          <div class="stat-delta">82% attendance</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">New sign-ups</div>
+          <div class="stat-value">12</div>
+          <div class="stat-delta">+3 vs last week</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">Monthly revenue</div>
+          <div class="stat-value">$9,420</div>
+          <div class="stat-delta">+6.2%</div>
+        </div>
+      </div>
+
+      <div class="two-col">
+        <div class="card">
+          <div class="card-header">
+            <h3>Today's classes</h3>
+            <span class="meta">Wednesday, May 20</span>
+          </div>
+          <ul class="list">
+            <li>
+              <div class="list-time">07:00</div>
+              <div class="list-main">
+                <div class="list-title">Sunrise Vinyasa</div>
+                <div class="list-sub">Maya Patel · Studio A</div>
+              </div>
+              <div class="list-meta">14 / 16</div>
+            </li>
+            <li>
+              <div class="list-time">09:30</div>
+              <div class="list-main">
+                <div class="list-title">Gentle Hatha</div>
+                <div class="list-sub">Daniel Roux · Studio B</div>
+              </div>
+              <div class="list-meta">9 / 12</div>
+            </li>
+            <li>
+              <div class="list-time">12:15</div>
+              <div class="list-main">
+                <div class="list-title">Lunchtime Flow</div>
+                <div class="list-sub">Maya Patel · Studio A</div>
+              </div>
+              <div class="list-meta">11 / 16</div>
+            </li>
+            <li>
+              <div class="list-time">17:30</div>
+              <div class="list-main">
+                <div class="list-title">Yin &amp; Restore</div>
+                <div class="list-sub">Aiko Tanaka · Studio B</div>
+              </div>
+              <div class="list-meta">12 / 12</div>
+            </li>
+            <li>
+              <div class="list-time">19:00</div>
+              <div class="list-main">
+                <div class="list-title">Candlelit Meditation</div>
+                <div class="list-sub">Aiko Tanaka · Studio C</div>
+              </div>
+              <div class="list-meta">7 / 14</div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Recent activity</h3>
+            <span class="meta">Last 24h</span>
+          </div>
+          <ul class="list">
+            <li>
+              <div class="activity-dot"></div>
+              <div class="list-main">
+                <div class="list-title">Elena Ross booked Yin &amp; Restore</div>
+                <div class="list-sub">2 hours ago</div>
+              </div>
+            </li>
+            <li>
+              <div class="activity-dot terracotta"></div>
+              <div class="list-main">
+                <div class="list-title">New membership: Marcus Lee</div>
+                <div class="list-sub">10-class pack · today</div>
+              </div>
+            </li>
+            <li>
+              <div class="activity-dot"></div>
+              <div class="list-main">
+                <div class="list-title">Class fully booked</div>
+                <div class="list-sub">Yin &amp; Restore at 17:30</div>
+              </div>
+            </li>
+            <li>
+              <div class="activity-dot muted"></div>
+              <div class="list-main">
+                <div class="list-title">Cancellation</div>
+                <div class="list-sub">Priya Shah · Sunrise Vinyasa</div>
+              </div>
+            </li>
+            <li>
+              <div class="activity-dot"></div>
+              <div class="list-main">
+                <div class="list-title">Unlimited renewal: Jamie Chen</div>
+                <div class="list-sub">Yesterday</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
